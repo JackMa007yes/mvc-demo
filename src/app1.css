@@ -1,0 +1,17 @@
+
+.app1 .output{
+    height: 20vh;
+    font-size: large;
+    text-align: center;
+    line-height: 20vh;
+}
+
+.app1 .actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.app1 .actions>button{
+    padding: 10px 20px;
+    margin: 10px;
+}

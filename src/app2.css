@@ -1,0 +1,20 @@
+.tab-bar {
+    display: flex;
+}
+
+.tab-bar>li {
+    width: 50%;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.selected {
+    background-color: red;
+    color: white;
+}
+#app2 .tab-content > li {
+    display: none;
+  }
+  #app2 .tab-content > li.active {
+    display: block;
+  }
